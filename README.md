@@ -1,5 +1,4 @@
-# acse-6-individual-assignment-acse-efb119
-acse-6-individual-assignment-acse-efb119 created by GitHub Classroom
+# Conway's Game of Life using MPI
 
 ## Introduction
 This project required the implementation of MPI into Conway's Game of Life in C++, the program outputs 2 data files per core. Both are used for postprocessing done in the animation.py file.
@@ -7,7 +6,7 @@ This project required the implementation of MPI into Conway's Game of Life in C+
 ## Installation:
 Clone the repository from Github by either:
 * Using command line:
-`https://github.com/acse-2019/acse-6-individual-assignment-acse-efb119.git`
+`https://github.com/EllyessB/gameoflife-MPI.git`
 * Downloading the repository as a .zip
 
 ## Usage:
@@ -25,7 +24,7 @@ For the postprocessing run:
 
 ```python animation.py```
 
-Some issues with this postproccesing program it works mainly for 4 cores and likes having processor grids to have the same number of columns. If time permitted would fix so can work for any shape and grid sizing!
+Some issues with this postproccesing program it works mainly for 4 cores and likes having processor grids to have the same number of columns.
 
 ## Input and Output
 The LifeLocal.cpp file has 4 variables in the code that can be changed to change output, Rows, Cols, Period and Periodic. The file will output a file that has the processor dimensions and a file that has the game of life grid for each processor.
